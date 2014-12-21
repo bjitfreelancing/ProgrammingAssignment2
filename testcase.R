@@ -8,7 +8,7 @@ a$getMatrix();
 cacheSolve(a);
 cacheSolve(a);
 
-# Creating a non square matrix
+# Creating a non square matDIRrix
 rm(list=ls());
 source("cachematrix.R");
 a <- makeCacheMatrix( matrix(matrix(1:1000, 100, 10) ) );
@@ -20,7 +20,7 @@ cacheSolve(a);
 # Creating a square, but non invertible matrix
 rm(list=ls());
 source("cachematrix.R");
-a <- makeCacheMatrix( matrix(matrix(1:1000, 10, 10) ) );
+a <- makeCacheMatrix( matrix(matrix(1:100, 10, 10) ) );
 summary(a);
 a$getMatrix();
 cacheSolve(a);
