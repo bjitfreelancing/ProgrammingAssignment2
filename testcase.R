@@ -1,3 +1,4 @@
+# How to test cachematrix.R
 # Creating a proper invertible matrix and test the happy scenario
 rm(list=ls());
 source("cachematrix.R");
